@@ -8,7 +8,6 @@ A Machine Learning-based system to predict Parkinson’s disease using biomedica
 * Achieved **94.8% accuracy** using Random Forest
 * Evaluates multiple models (Logistic Regression, SVM, Decision Tree, KNN)
 * Uses feature scaling and correlation-based feature selection
-* Real-time prediction through Streamlit web app
 
 ## Tech Stack
 
@@ -16,7 +15,6 @@ A Machine Learning-based system to predict Parkinson’s disease using biomedica
 * NumPy, Pandas
 * Scikit-learn
 * Matplotlib, Seaborn
-* Streamlit
 
 ## Machine Learning Workflow
 
@@ -24,9 +22,6 @@ A Machine Learning-based system to predict Parkinson’s disease using biomedica
 2. Feature scaling using StandardScaler
 3. Model training and comparison
 4. Evaluation using Accuracy, Recall, ROC-AUC
-5. Deployment using Streamlit
-
-## 🌐 Live Demo
 
 
 ## Results
