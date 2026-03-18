@@ -2,13 +2,11 @@ import streamlit as st
 import pickle
 import numpy as np
 
-# Load model
 model = pickle.load(open("parkinson_model.pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))
 
 st.title("Parkinson's Disease Predictor")
 
-# Input fields
 features = []
 
 for i in range(22):  # number of features
